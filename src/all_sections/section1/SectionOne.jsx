@@ -60,7 +60,7 @@ const SectionOne = (props) => {
   return (
     <>
     <h2>Section 1</h2>
-    <TextField select label="Select" variant="filled" helperText="Please select your Insurance provider" sx={{margin: 1}} name = "insurance_provider" onChange={handleInputChange} value = {secOneInputs.insurance_provider}>
+    <TextField select  label="Select" variant="filled" helperText="Please select your Insurance provider" sx={{margin: 1}} name = "insurance_provider" onChange={handleInputChange} value = {secOneInputs.insurance_provider}>
       {insurance_providers.map((option) => (
         <MenuItem key={option.value} value={option.value}>
           {option.label}

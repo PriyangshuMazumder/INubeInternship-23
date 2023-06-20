@@ -1,10 +1,9 @@
-
 import './App.css';
 import React from 'react';
 import { SectionOne, SectionTwo, SectionThree, SectionFour, SectionFive, SectionSix, SectionSeven, SectionEight, SectionNine, SectionTen } from './all_sections';
 import { SectionEleven} from './all_sections'
-
-
+import axios from 'axios';
+import { getElementError } from '@testing-library/react';
 let section_one = {
   insurance_provider: "",
   id_number: "",
@@ -75,22 +74,48 @@ let section_eleven = {
   plan_name: "",
   another_plan: "",
 };
-
-
-
+let arr = [section_one,section_two,section_three,section_four,section_five,section_six,section_seven,section_eight
+  ,section_nine,section_ten,section_eleven]
 
 export default function MyApp() {
-  function callbackFunction(event) {
-    event.preventDefault();
-    console.log("converting to JSON")
-    const myFormData = new FormData(event.target);
-    const formDataObj = {};
-    myFormData.forEach((value, key) => (formDataObj[key] = value));
-    console.log(formDataObj);
-    
-    console.log("Saved")
 
-  }
+  async function callbackFunction(event) {
+    event.preventDefault();
+
+// TO GET PROPER SEGMENTED DATA
+    var final={}
+    var formobj ={section_one,section_two,section_three,section_four,section_five,section_six,section_seven,section_eight
+      ,section_nine,section_ten,section_eleven}
+      arr.forEach((field)=>{
+        const keys = Object.keys(field);
+        var section = {};
+        keys.forEach((value, key) => (section[keys] = value))
+        formobj[field]= section
+      }
+    )
+    const data = JSON.stringify(formobj)
+    const send = await axios.post('http://127.0.0.1:8000/tofile',formobj);
+    // console.log(send.data.data);
+    const myFormData = new FormData(event.target);
+    // const formDataObj = {};
+    myFormData.forEach((value, key) => (formobj[key] = value));
+    await axios.post('http://127.0.0.1:8000/tofile',formobj);
+    // console.log(formDataObj)
+}
+    async function fillform(event) {
+      event.preventDefault();
+      await axios.get('http://127.0.0.1:8000/toform').then((res)=>{
+        // console.log(res.data);
+        const obj = JSON.parse(res.data)
+            arr.forEach((field)=>{
+              console.log(field)
+              field.forEach((ip)=>{
+                  console.log(ip)
+              })
+            })
+          })
+        };
+  
 
   function handleSecOneChange(inputs){
     section_one.insurance_provider = inputs.insurance_provider;
@@ -171,8 +196,8 @@ export default function MyApp() {
 
 
   return (
-    <>
-     <form onSubmit={callbackFunction}>
+    <center>
+     <form onSubmit={callbackFunction} id = "form">
       <div className="wrapper">
         <div id="section_one">
           <SectionOne onSecOneChange = {handleSecOneChange}/>
@@ -221,8 +246,10 @@ export default function MyApp() {
           <SectionEleven onSecElevenRestChange = {handleSecElevenRestChange} onSecElevenDateChange = {handleSecElevenDateChange}/>
         </div>
       </div>
-      <input type='submit'/>
+      <input type='submit' onSubmit={callbackFunction} style={{width:'20%',padding:'10px', margin:'20px',}}/>
+      {/* <button onClick={callbackFunction}> Make JSON</button> */}
+      <button onClick={fillform} style={{width:'20%',padding:'10px', margin:'20px',}}> Fill Form</button>
       </form>
-      </>
+      </center>
   );
 }

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <section_one>
+    <insurance_provider>MEDICAID</insurance_provider>
+    <id_number>2371997930</id_number>
+  </section_one>
+  <section_two>
+    <first_name>Rumali</first_name>
+    <last_name>Rotishwari</last_name>
+    <middle_initial>K</middle_initial>
+  </section_two>
+  <section_three>
+    <dob>2023-06-28T09:43:32.000Z</dob>
+    <gender>M</gender>
+  </section_three>
+  <section_four>
+    <first_name>Rumali</first_name>
+    <last_name>Rotishwari</last_name>
+    <middle_initial></middle_initial>
+  </section_four>
+  <section_five>
+    <address>#12 Badgiri Road</address>
+    <city>Punjab</city>
+    <state>Haryana</state>
+    <zip>190292</zip>
+    <phone></phone>
+  </section_five>
+  <section_six>
+    <relationship></relationship>
+  </section_six>
+  <section_seven>
+    <address>#12 Badgiri Road</address>
+    <city>Punjab</city>
+    <state>Haryana</state>
+    <zip>190292</zip>
+    <phone></phone>
+  </section_seven>
+  <section_eight>
+    <nuc_input></nuc_input>
+  </section_eight>
+  <section_nine>
+    <name>Rumali Rotishwari</name>
+    <policy_number></policy_number>
+    <nuc_input_1></nuc_input_1>
+    <nuc_input_2></nuc_input_2>
+  </section_nine>
+  <section_ten>
+    <employment></employment>
+    <auto_accident></auto_accident>
+    <place></place>
+    <other></other>
+    <claim_code></claim_code>
+  </section_ten>
+  <section_eleven>
+    <policy_number></policy_number>
+    <dob>2023-06-14T09:43:32.774Z</dob>
+    <gender></gender>
+    <claim_id></claim_id>
+    <plan_name></plan_name>
+    <another_plan></another_plan>
+  </section_eleven>
+  <insurance_provider>MEDICAID</insurance_provider>
+  <id_number>2371997930</id_number>
+  <last_name>Rotishwari</last_name>
+  <first_name>Rumali</first_name>
+  <mi></mi>
+  <address>#12 Badgiri Road</address>
+  <city>Punjab</city>
+  <state>Haryana</state>
+  <zip>190292</zip>
+  <phone></phone>
+  <relationship></relationship>
+  <reserved></reserved>
+  <zipCode>190292</zipCode>
+  <phoneNumber></phoneNumber>
+  <name>Rumali Rotishwari</name>
+  <policyNumber></policyNumber>
+  <reservedNUCC1></reservedNUCC1>
+  <reservedNUCC2></reservedNUCC2>
+  <insurancePlanName></insurancePlanName>
+  <employment></employment>
+  <auto_accident></auto_accident>
+  <place></place>
+  <other></other>
+  <claim_code></claim_code>
+  <policy_number></policy_number>
+  <gender></gender>
+  <claim_id></claim_id>
+  <plan_name></plan_name>
+  <another_plan></another_plan><[object_Object]>
+  <policy_number,dob,gender,claim_id,plan_name,another_plan>another_plan</policy_number,dob,gender,claim_id,plan_name,another_plan></[object_Object]>
+</root>

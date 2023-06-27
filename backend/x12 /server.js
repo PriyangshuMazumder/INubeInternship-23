@@ -1,8 +1,8 @@
-const dt = require('./data')
-const apiKey = `PfWGUH3.zdHLXIa57uEZL5ZluM9XeLPR`
-const guideId = `01H3V8Q43DXRN9BA77YDJVW50G`
-const axios = require("axios");
-
+const dt = require('./data.js')
+const apiKey = `I5voCCM.0NXUF8YqWjzkXAc6FrAiEDEb`
+const guideId = `01H3XNQPDW5QTFQSQ1SRANPSAZ`
+const axios = require('axios')
+console.log(`done`)
 axios.request({
     method: "POST",
     url: "https://edi-translate.us.stedi.com/2022-01-01/x12/from-json",
@@ -13,8 +13,6 @@ axios.request({
     },
     headers: { Authorization: `Key ${apiKey}` },
   }).then((response) => {
-    // const guideJson = response.data.output;
-    // console.log(JSON.stringify(guideJson));
     console.log(response.data)
   }).catch((error) => {
     console.error(error);

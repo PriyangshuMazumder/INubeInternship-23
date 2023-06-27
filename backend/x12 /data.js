@@ -26,7 +26,7 @@ exports.data = [
       "transaction_set_header_ST": {
         "transaction_set_identifier_code_01": "837",
         "transaction_set_control_number_02": 1,
-        "implementation_guide_version_name_03": "005010X222A2"
+        "implementation_guide_version_name_03": "005010X222A1"
       },
       "beginning_of_hierarchical_transaction_BHT": {
         "hierarchical_structure_code_01": "0019",

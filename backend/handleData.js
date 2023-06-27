@@ -1,31 +1,6 @@
 const { getDefaultNormalizer } = require("@testing-library/react");
 
 function adjustData(data){
-    switch(data.section_one.insurance_provider){
-        case "MEDICARE":
-            data.section_one.insurance_provider = "MB";
-            break;
-        case "MEDICAID":
-            data.section_one.insurance_provider = "MC";
-            break;
-        case "TRICARE":
-            data.section_one.insurance_provider = "CH";
-            break;
-        case "CHAMPVA":
-            data.section_one.insurance_provider = "VA";
-            break;
-        case "GROUP HEALTH PLAN":
-            data.section_one.insurance_provider = "CI";
-            break;
-        case "FECA BLK LUNG":
-            data.section_one.insurance_provider = "OF";
-            break;
-        case "OTHER":
-            data.section_one.insurance_provider = "ZZ";
-            break;
-        default:
-            data.section_one.insurance_provider = "ZZ";
-    }
 
     data.section_one.id_number = removeSpecialSpace(data.section_one.id_number);
 

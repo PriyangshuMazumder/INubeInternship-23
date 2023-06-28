@@ -28,7 +28,7 @@ function removeSpecialSpace(data){
         if(data[i] != "-" && data[i] != "(" && data[i] != ")" && data[i] != " "){
             temp += data[i];
         }
-    }
+    }   
     return temp;
 }
 

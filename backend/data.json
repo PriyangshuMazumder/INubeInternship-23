@@ -1,8 +1,7 @@
-
 {
     "section_one": {
-      "insurance_provider": "MEDICAID",
-      "id_number": "2371997930"
+      "insurance_provider": "MC",
+      "id_number": "BI"
     },
     "section_two": {
       "first_name": "Ronald",
@@ -10,7 +9,7 @@
       "middle_initial": "Jenny"
     },
     "section_three": {
-      "dob": "2023-06-28T09:43:32.000Z",
+      "dob": "2023-06-28",
       "gender": "M"
     },
     "section_four": {
@@ -21,9 +20,9 @@
     "section_five": {
       "address": "100 Clown Avenue",
       "city": "Nevada",
-      "state": "Los Angeles",
+      "state": "LA",
       "zip": "82801",
-      "phone": "+02"
+      "phone": "LA"
     },
     "section_six": {
       "relationship": "18"
@@ -31,21 +30,21 @@
     "section_seven": {
       "address": "100 Clown Avenue",
       "city": "Nevada",
-      "state": "CA",
+      "state": "LA",
       "zip": "82801",
-      "phone": "+02"
+      "phone": "LA"
     },
     "section_eight": {
       "nuc_input": ""
     },
     "section_nine": {
-      "name": "Medicare",
+      "name": "Ganihen",
       "policy_number": "74973897932898",
       "nuc_input_1": "yes",
       "nuc_input_2": "no"
     },
     "section_ten": {
-      "employment": "Service Sector",
+      "employment": "yes",
       "auto_accident": "no",
       "place": "Casino",
       "other": "no",
@@ -53,11 +52,10 @@
     },
     "section_eleven": {
       "policy_number": "982948923",
-      "dob": "2023-06-14T09:43:32.774Z",
+      "dob": "2023-06-14",
       "gender": "F",
       "claim_id": "90392893908",
       "plan_name": "Medicare",
-      "another_plan": "Tricare"
+      "another_plan": "no"
     }
   }
-

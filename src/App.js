@@ -4,6 +4,7 @@ import { SectionOne, SectionTwo, SectionThree, SectionFour, SectionFive, Section
 import { SectionEleven} from './all_sections'
 import axios from 'axios';
 import { getElementError } from '@testing-library/react';
+
 let section_one = {
   insurance_provider: "",
   id_number: "",
@@ -99,22 +100,12 @@ export default function MyApp() {
     const myFormData = new FormData(event.target);
     // const formDataObj = {};
     myFormData.forEach((value, key) => (formobj[key] = value));
-    await axios.post('http://127.0.0.1:8000/tofile',formobj);
+    await axios.post('http://127.0.0.1:8000/tofile',formobj).then(
+      
+    )
+    }
+
     // console.log(formDataObj)
-}
-    async function fillform(event) {
-      event.preventDefault();
-      await axios.get('http://127.0.0.1:8000/toform').then((res)=>{
-        // console.log(res.data);
-        const obj = JSON.parse(res.data)
-            arr.forEach((field)=>{
-              console.log(field)
-              field.forEach((ip)=>{
-                  console.log(ip)
-              })
-            })
-          })
-        };
   
 
   function handleSecOneChange(inputs){
@@ -248,7 +239,7 @@ export default function MyApp() {
       </div>
       <input type='submit' onSubmit={callbackFunction} style={{width:'20%',padding:'10px', margin:'20px',}}/>
       {/* <button onClick={callbackFunction}> Make JSON</button> */}
-      <button onClick={fillform} style={{width:'20%',padding:'10px', margin:'20px',}}> Fill Form</button>
+      {/* <button onClick={fillform} style={{width:'20%',padding:'10px', margin:'20px',}}> Fill Form</button> */}
       </form>
       </center>
   );

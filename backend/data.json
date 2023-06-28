@@ -1,1 +1,61 @@
-{"section_one":{"insurance_provider":"MEDICAID","id_number":"2371997930"},"section_two":{"first_name":"Rumali","last_name":"Rotishwari","middle_initial":"K"},"section_three":{"dob":"2023-06-28T09:43:32.000Z","gender":"M"},"section_four":{"first_name":"Rumali","last_name":"Rotishwari","middle_initial":""},"section_five":{"address":"#12 Badgiri Road","city":"Punjab","state":"Haryana","zip":"190292","phone":""},"section_six":{"relationship":""},"section_seven":{"address":"#12 Badgiri Road","city":"Punjab","state":"Haryana","zip":"190292","phone":""},"section_eight":{"nuc_input":""},"section_nine":{"name":"Rumali Rotishwari","policy_number":"","nuc_input_1":"","nuc_input_2":""},"section_ten":{"employment":"","auto_accident":"","place":"","other":"","claim_code":""},"section_eleven":{"policy_number":"","dob":"2023-06-14T09:43:32.774Z","gender":"","claim_id":"","plan_name":"","another_plan":""}}
+{
+    "section_one": {
+      "insurance_provider": "MEDICAID",
+      "id_number": "2371997930"
+    },
+    "section_two": {
+      "first_name": "Ronald",
+      "last_name": "MCalister",
+      "middle_initial": "Jenny"
+    },
+    "section_three": {
+      "dob": "2023-06-28T09:43:32.000Z",
+      "gender": "M"
+    },
+    "section_four": {
+      "first_name": "Madonna",
+      "last_name": "Ganbhootin",
+      "middle_initial": "Sanamij"
+    },
+    "section_five": {
+      "address": "100 Clown Avenue",
+      "city": "Nevada",
+      "state": "Los Angeles",
+      "zip": "82801",
+      "phone": "+02"
+    },
+    "section_six": {
+      "relationship": "18"
+    },
+    "section_seven": {
+      "address": "100 Clown Avenue",
+      "city": "Nevada",
+      "state": "CA",
+      "zip": "82801",
+      "phone": "+02"
+    },
+    "section_eight": {
+      "nuc_input": ""
+    },
+    "section_nine": {
+      "name": "Medicare",
+      "policy_number": "74973897932898",
+      "nuc_input_1": "yes",
+      "nuc_input_2": "no"
+    },
+    "section_ten": {
+      "employment": "Service Sector",
+      "auto_accident": "no",
+      "place": "Casino",
+      "other": "no",
+      "claim_code": "989089832"
+    },
+    "section_eleven": {
+      "policy_number": "982948923",
+      "dob": "2023-06-14T09:43:32.774Z",
+      "gender": "F",
+      "claim_id": "90392893908",
+      "plan_name": "Medicare",
+      "another_plan": "Tricare"
+    }
+  }

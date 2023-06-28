@@ -1,4 +1,3 @@
-
 exports.envelope = {
   "interchangeHeader": {
     "senderQualifier": "ZZ",
@@ -20,7 +19,6 @@ exports.envelope = {
   }
 }
 
-
 exports.data = [
   {
     "heading": {
@@ -41,16 +39,16 @@ exports.data = [
         "submitter_name_NM1": {
           "entity_identifier_code_01": "41",
           "entity_type_qualifier_02": "2",
-          "submitter_last_or_organization_name_03": "X",
-          "submitter_first_name_04": "XXXXXX",
-          "submitter_middle_name_or_initial_05": "XXX",
+          "submitter_last_or_organization_name_03": "Goolesivile",
+          "submitter_first_name_04": "Sonny",
+          "submitter_middle_name_or_initial_05": "Chevvy",
           "identification_code_qualifier_08": "46",
           "submitter_identifier_09": "XXX"
         },
         "submitter_edi_contact_information_PER": [
           {
             "contact_function_code_01": "IC",
-            "submitter_contact_name_02": "XXX",
+            "submitter_contact_name_02": "Rosalie Gomez",
             "communication_number_qualifier_03": "EM",
             "communication_number_04": "XX",
             "communication_number_qualifier_05": "TE",
@@ -74,7 +72,7 @@ exports.data = [
       "billing_provider_hierarchical_level_HL_loop": [
         {
           "billing_provider_specialty_information_PRV": {
-            "provider_code_01": "2371997930",
+            "provider_code_01": "BI",
             "reference_identification_qualifier_02": "PXC",
             "provider_taxonomy_code_03": "MEDICAID"
           },
@@ -164,20 +162,20 @@ exports.data = [
             },
             "pay_to_address_city_state_zip_code_N4": {
               "pay_to_address_city_name_01": "Nevada",
-              "pay_to_address_state_code_02": "Los Angeles",
+              "pay_to_address_state_code_02": "CA",
               "pay_to_address_postal_zone_or_zip_code_03": "82801",
-              "country_code_04": "+02 477900982"
+              "country_code_04": "+02"
             }
           },
           "subscriber_hierarchical_level_HL_loop": [
             {
               "subscriber_information_SBR": {
                 "payer_responsibility_sequence_number_code_01": "P",
-                "individual_relationship_code_02": "Wife",
+                "individual_relationship_code_02": "18",
                 "subscriber_group_or_policy_number_03": "X",
                 "subscriber_group_name_04": "XXXXX",
-                "insurance_type_code_05": "2371997930",
-                "claim_filing_indicator_code_09": "MEDICAID"
+                "insurance_type_code_05": "43",
+                "claim_filing_indicator_code_09": "MA"
               },
               "patient_information_PAT": {
                 "date_time_period_format_qualifier_05": "D8",
@@ -203,9 +201,9 @@ exports.data = [
                 },
                 "subscriber_city_state_zip_code_N4": {
                   "subscriber_city_name_01": "Nevada",
-                  "subscriber_state_code_02": "Los Angeles",
+                  "subscriber_state_code_02": "LA",
                   "subscriber_postal_zone_or_zip_code_03": "82801",
-                  "country_code_04": "+02 477900982"
+                  "country_code_04": "+02"
                 },
                 "subscriber_demographic_information_DMG": {
                   "date_time_period_format_qualifier_01": "D8",

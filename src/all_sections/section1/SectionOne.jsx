@@ -8,31 +8,31 @@ import {useState, useEffect} from 'react'
 
 const insurance_providers = [
     {
-      value: 'MEDICARE',
+      value: 'MB',
       label: 'MEDICARE',
     },
     {
-      value: 'MEDICAID',
+      value: 'MC',
       label: 'MEDICAID',
     },
     {
-      value: 'TRICARE',
+      value: 'CH',
       label: 'TRICARE',
     },
     {
-      value: 'CHAMPVA',
+      value: 'VA',
       label: 'CHAMPVA',
     },
     {
-      value: 'GROUP HEALTH PLAN',
+      value: 'CI',
       label: 'GROUP HEALTH PLAN',
     },
     {
-      value: 'FECA BLK LUNG',
+      value: 'OF',
       label: 'FECA BLK LUNG',
     },
     {
-      value: 'OTHER',
+      value: 'ZZ',
       label: 'OTHER',
     },
   

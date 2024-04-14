@@ -1,5 +1,5 @@
 # cms1500 form
-![Uploading Screenshot 2024-04-14 at 10.58.55 AM.png…]()
+<img width="1365" alt="Screenshot 2024-04-14 at 10 58 55 AM" src="https://github.com/PriyangshuMazumder/INubeInternship-23/assets/97266247/b66a9a96-00f6-4b9c-b3bb-db22fce2fb4c">
 
 This project is a webpage form that can intake inputs for the CMS1500 form and convert it to a JSON object. This JSON object can then be converted to an X12 format.
 
